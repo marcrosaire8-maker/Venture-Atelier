@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom CSS for luxurious feel */
+body {
+  background-color: #030303;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.88), rgba(3, 3, 3, 0.94)), url("/src/assets/images/m1.png"), url("/m1.png"), url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBAPDw8PFhAQDw4QFRAVDxAQEBAQFRUWGBUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtOCgtLisBCgoKDg0OGxAQGismHyUtKy01LS0tLS0tLS0tLS0tKy0tLSstLy0tLS0tLS0tLS0tLSstLSstLv/AABEIAKIBNwMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQQFBgIDBwf/xABBEAABAwIEAwUFBQYFBAMAAAABAAIDBBEFEiExBhNBIlFhcdIXMlWBkgcUQpGhI2JyscHhNVKC0fA0Q0XxFSQz/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAKBEAAgICAgEDAwUBAAAAAAAAAAECEQMhEjFBEyJRMmHxBEJxwdEU/9oADAMBAAIRAxEAPwDhyEJVYAlSJUIBIhKFBIIQhACEIUAVKkWQQAFm0IAWYCglCgLbSjVYEaLOBpJ0Kq+i8OyVhYpClNioiCdwHQjuOhTymxKO9jdp8Vzyi/B1Rmi44bU6WT+ep0Vco6lp1aR8inM1VpusHdmtDPFH3JULI5PK6ujHvPHkNSoqTEb/AP5sH8TjZbwi6MpySLxws39g7vcQFUeLqYNq5j1zNaBbYBjf9utilKEnrVjxW9yWuhzw05Z+1ysWvGtt7KQpKVr2HQG5vfYtPcoegDmANYTl7jbfwVio2230v3bXWUrNY9ERLAWXYfMHeoutYQc7dD1VyraXmM27Q1BVbqobXuPAhWhLYkrRnwVijoqgNtdjjfJe2o1Nu5d8wfEIJGAROANhdhIDwfLr8l5nZK6GVr2mxa4G/6fyJXVuF+JaUtENXC21yRKBfU9/UfJRljxnySWzKO40/B1MnbzVZ+0SoyUTjp7zQbgHQkLWJqR5H3fEpIv3Odmb9Mt1qxDChM3LNiznR/5bQAHzsqT9yoiKpnHponRwse0WdUNe4u65A9zQB3e6VEywjLeSzWDp+Jy6FjtFh8LiG1Dpf2TwO1mLZPwjs6W3VCxKNr3XANvE3V8Ltl5R0am0z54+cG2gZIYmt/eDQTf5ELD7s6R1iLNHRWHAIr0NW0/gqKd4H8TxtP8gknbXWusldNf8AzUrZfI6RFYg4o4E4E3uFisysVIESJSkUgRCEIBEIQgBCEKACVIhSgKhCEAqEJUAJUiUKACyASLIIBQFmAsQswoJMmqTwKvbTzxyyRtkja4F0birdj9t+vco1gLtAn1PhjnbqknGqZpCEm7R0abj2lqZYm3qI4YxLJY9hz5fcjYXRklrMjnkuGtwLa71fH8Y5plfG+0Ejw6wzNbMW3ayR4JJL8pAJJN7Am51UdVUIihLgNbkX+RTSrADMg2bYjyGq5VCKejeTfkSJQFSNMSLAnUHzp9N6fPZFeSdv9TIn_g7f_FpvhZ9SwquC6OqfLzBPzYmNkyPcXvc0W96wsBextuFVKmnmY9xmZ2nOJzi7mkkkntaG_8unmF0coYZZHPkkOdzXOf27AnscvQXvew8T8kp+SXPZasB4Ro8fmbWzNqKd8MYp87nvGToa7Xdt148uRco_qdF_rrhp3LhxXwfh_EU7p5hPTzCBwDXmz3C_vWFyLWJbW9vdW7F6SVzpHyMkc9zi8yaOMgOuyDbS2gXGvUfO6vE80L3OlfE_m8lzi5uXUnXUEXub7X6qtVNTCxxdm943Zma6bXW9j73TvH_asvE_mS_d3WzG5PeU8w_DttFYYaBpYWuG4ttseirKaSpFlC9szwCNv_eN53E2nzaf_rKQkr2gWBUtwxjNFSw8icaEEudyswJ7rC659xhxHHJUudRQNigaA3KRYvP_aYf6dfOye9bMzLnc7I05rkkEnfvF0gW2mqWMLnMzPdE2RocX_f6_VvtdVFnS10MkpkEr3vZGyMZg5xDSTvYm48fFfE_mE_d3WzG5PeU8w_DttFYYaBpYWuG4ttseirKaSpFlC9szwCNv_eN53E2nzaf_rKQkr2gWBUtwxjNFSw8icaEEudyswJ7rC659xhxHHJUudRQNigaA3KRYvP_aYf6dfOye9bMzLnc7I5bke93ZfG+fS9VipqYWOOf3vcznTbaS7rbfNPIaeVjs0juU_Vga7OHWN7G+mvmndS6ndExznPc6OVsge8vMkrNczQdgdAb79E7mraV8mZkrgWsEbA7O8gEm+vfb5XTWephe0xubKXtYGgOdJIdT2tXf8C9BfM6WmjbMyZkkjmyRsa6SWRzzG7S7LgC/UWGmuXqpX9Dgn9NidW9t5InuIzaEPIDgNhfUdf9Ur66mc6Rzi9zpWGN3uE5f3b7D/gXocT6bO6Vkkksga8mR8sjjM0X_d3W++lzbopVfA6CEIUgEIQgBCEIAQhCAEIQgBCEIAQhCAEIQgP_zk=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f3f4f6;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Luxury gold text gradients */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFE082 0%, #D4AF37 50%, #AA7C11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gold-gradient-light {
+  background: linear-gradient(135deg, #FFF1C5 0%, #E6C575 50%, #B88E2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom golden scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a220e;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Golden subtle glow */
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.15);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 30px -3px rgba(212, 175, 55, 0.25);
+}
+
+/* Delicate borders for Atelier high-end aesthetic */
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.15);
+}
+
+.border-gold-bright {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+/* Smooth custom cursor state on luxury cards */
+.luxury-card {
+  background: linear-gradient(180deg, rgba(15, 15, 15, 0.7) 0%, rgba(5, 5, 5, 0.9) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.08);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: rgba(212, 175, 55, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7), 0 0 20px -2px rgba(212, 175, 55, 0.05);
+}
+
+/* Keyframes for noble particles background */
+@keyframes slow-pulse {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(1.05); }
+}
+
+.animate-slow-pulse {
+  animation: slow-pulse 8s infinite ease-in-out;
+}

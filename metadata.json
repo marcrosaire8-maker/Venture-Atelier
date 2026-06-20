@@ -1,0 +1,6 @@
+{
+  "name": "Venture Atelier",
+  "description": "Studio digital haut de gamme de création de ventures. Conception, croissance et ingénierie d'exception pour bâtir les leaders de demain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
